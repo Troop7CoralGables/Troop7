@@ -4,6 +4,7 @@ module.exports = {
     description: `Since 1922, more than three thousand boys have benefited from the timeless lessons that only scouting can offer, and a number of our adult volunteers have accomplished more than 30 years of service with the troop. The troop is sponsored by the Kiwanis Club of Coral Gables. Our scout cabin, originally constructed in 1926, is located at 1107 South Greenway on the Granada Golf Course in Coral Gables, Florida.`,
     author: `@1shooperman`,
   },
+  pathPrefix: `/Troop7`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
