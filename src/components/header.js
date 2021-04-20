@@ -1,22 +1,32 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      background: `rgba(191, 78, 89, 1)`
     }}
   >
     <div
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        padding: `0.45rem 1.0875rem`,
+        alignItems: `center`
       }}
+      className="row"
     >
-      <h1 style={{ margin: 0 }}>
+      <div className="col" style={{flex: 1, margin:0}}>
+    <StaticImage
+      src="../images/Troop7Scouts1922.gif"
+      quality={95}
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="Troop71922"
+    />
+    </div>
+      <h1 style={{ margin: 0, flex:2 }} className="col">
         <Link
           to="/"
           style={{

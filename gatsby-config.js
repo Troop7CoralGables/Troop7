@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Troop 7 of Coral Gables`,
+    description: `Since 1922, more than three thousand boys have benefited from the timeless lessons that only scouting can offer, and a number of our adult volunteers have accomplished more than 30 years of service with the troop. The troop is sponsored by the Kiwanis Club of Coral Gables. Our scout cabin, originally constructed in 1926, is located at 1107 South Greenway on the Granada Golf Course in Coral Gables, Florida.`,
+    author: `@1shooperman`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,13 +19,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `troop-7-coral-gables`,
+        short_name: `troop7`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/fleur-de-lis.jpg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-gatsby-cloud`,

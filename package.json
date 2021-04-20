@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "troop-7-coralgables",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Gatsby based Troop 7 mock site.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "gatsby": "^3.2.1",
     "gatsby-plugin-gatsby-cloud": "^2.2.0",
@@ -37,9 +36,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/Troop7CoralGables/Troop7"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/Troop7CoralGables/Troop7/issues"
   }
 }
