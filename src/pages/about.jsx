@@ -19,7 +19,7 @@ const AboutPage = () => (
         supporter of the scouting program and wanted to see a strong troop in the town he founded. The original cabin was built in 1926, 
         from telephone poles toppled as a result of a hurricane that year by Merrick's own construction company.</div>
         <StaticImage
-          src="../images/Troop7Cabin600.jpg"
+          src="../images/Troop7Cabin600.png"
           width={300}
           quality={95}
           formats={["AUTO", "WEBP", "AVIF"]}
@@ -46,7 +46,7 @@ const AboutPage = () => (
         program and Scouting activities.
     </p>
     <StaticImage
-      src="../images/KiwanisHeader.gif"
+      src="../images/KiwanisHeader.png"
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Kiwanis"

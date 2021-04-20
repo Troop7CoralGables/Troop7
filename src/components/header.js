@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => (
     >
       <div className="col" style={{flex: 1, margin:0}}>
     <StaticImage
-      src="../images/Troop7Scouts1922.gif"
+      src="../images/Troop7Scouts1922.png"
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Troop71922"

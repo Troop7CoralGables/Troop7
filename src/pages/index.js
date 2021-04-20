@@ -11,7 +11,7 @@ const IndexPage = () => (
     <br />
     <p className="row">
       <StaticImage
-        src="../images/1624Troop7Marker540.jpg"
+        src="../images/1624Troop7Marker540.png"
         quality={95}
         formats={["AUTO", "WEBP", "AVIF"]}
         alt="Marker1"
@@ -19,7 +19,7 @@ const IndexPage = () => (
         className="col"
       />
       <StaticImage
-        src="../images/1625Troop7MarkerClose540.jpg"
+        src="../images/1625Troop7MarkerClose540.png"
         quality={95}
         formats={["AUTO", "WEBP", "AVIF"]}
         alt="Marker2"
